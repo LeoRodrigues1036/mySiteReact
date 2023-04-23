@@ -3,7 +3,7 @@
     color: #fff;
     padding: 10px;
     border-radius: 10px;
-    margin-top: 10px;
+    margin-top: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,14 +16,17 @@
   }
   
   .footer ul {
+    display: flex;
+    flex-direction: column;
     list-style-type: none;
-    padding: 0;
-    margin: 0;
+    padding: 15px;
+    margin: 10px;
     display: flex;
   }
   
   .footer li {
     margin-right: 16px;
+    padding: 10px;
   }
   
   .footer a {
@@ -44,6 +47,8 @@
     
     .footer ul {
       margin-top: 8px;
+      display: flex;
+      flex-direction: column;
     }
     
     .footer li {

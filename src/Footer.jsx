@@ -9,7 +9,7 @@ function Footer(){
         <li>Contato: leorodrigues1036@gmail.com</li>
         <li>Telefone: (87) 99194-9448</li>
       </ul>
-      <div>
+      <div className='contener'>
         <p>Siga-me nas redes sociais:</p>
         <ul>
           <li>

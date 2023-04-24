@@ -10,7 +10,7 @@ function Footer(){
         <li>Telefone: (87) 99194-9448</li>
       </ul>
       <div className='contener'>
-        <p>Siga-me nas redes sociais:</p>
+        <p>Me siga nas redes sociais:</p>
         <ul>
           <li>
             <a href="https://www.linkedin.com/in/leonardo-rodrigues-desenvolvedor-web/" target="_blank" rel="noopener noreferrer">LinkedIn</a>

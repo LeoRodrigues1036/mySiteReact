@@ -18,11 +18,12 @@
 }
 
 .main p {
-  font-size: 24px;
+  font-size: 15px;
   font-family: 'Montserrat', sans-serif;
-  padding: 20px;
-  color: aliceblue;
-  text-align: center; /* Adicionar esta linha */
+  padding: 10px 5px;
+  color: white;
+  text-align: inherit;
+  font-weight: bolder;
 }
 
 .section {
@@ -36,4 +37,47 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+
+@media (min-width: 768px) {
+  .main {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  background-color: #444654;
+  color: #333;
+  border-radius: 15px;
+}
+
+.main h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 20px;
+  padding: 5px;
+  color: aliceblue;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main p {
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 30px 0;
+}
+
+.section img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 }

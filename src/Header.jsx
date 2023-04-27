@@ -9,9 +9,9 @@ function Header() {
             <img className='logo' src={UrlImg} alt="" />
             <nav className="nav">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="https://github.com/LeoRodrigues1036"><img src="https://img.icons8.com/nolan/96/github.png"/></a></li>
+                    <li><a href="https://www.linkedin.com/in/leonardo-rodrigues-desenvolvedor-web/"><img src="https://img.icons8.com/nolan/96/linkedin.png"/></a></li>
+                    <li><a href="https://www.instagram.com/leozera96/?next=%2F"><img src="https://img.icons8.com/nolan/96/instagram-new.png"/></a></li>
                 </ul>
             </nav>
         </header>
